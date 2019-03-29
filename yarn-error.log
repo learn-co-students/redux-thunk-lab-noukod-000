@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /home/gilbert2019/.rvm/gems/ruby-2.6.0/bin:/home/gilbert2019/.rvm/gems/ruby-2.6.0@global/bin:/home/gilbert2019/.rvm/rubies/ruby-2.6.0/bin:/home/gilbert2019/.rbenv/plugins/ruby-build/bin:/home/gilbert2019/.rbenv/shims:/home/gilbert2019/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/tools/ruby24/bin:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/MongoDB/Server/4.0/bin:/mnt/c/wamp64/bin/php/php5.6.38:/mnt/c/composer:/mnt/c/Users/NouKod_bootcamp_10/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NouKod_bootcamp_10/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NouKod_bootcamp_10/AppData/Roaming/npm:/mnt/c/Users/NouKod_bootcamp_10/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/NouKod_bootcamp_10/AppData/Local/learn_ide_3/bin:/snap/bin:/home/gilbert2019/.rvm/bin:/home/gilbert2019/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/gilbert2019/.cache/yarn/v4/npm-source-map-0.6.1-74722af32e9614e9c287a8d0bbde48b5e2f1a263/node_modules/source-map/lib/util.js' -> '/mnt/c/Users/NouKod_bootcamp_10/Documents/redux-thunk-lab-noukod-000/node_modules/postcss-modules-extract-imports/node_modules/source-map/lib/util.js'
+
+npm manifest: 
+  {
+    "name": "nested-routes-lab",
+    "version": "0.1.0",
+    "private": true,
+    "babel": {
+      "presets": [
+        "airbnb",
+        "env",
+        "stage-0",
+        "react"
+      ]
+    },
+    "devDependencies": {
+      "jsdom": "^9.9.1",
+      "mocha": "^5.2.0",
+      "react-scripts": "^1.1.4",
+      "webpack": "^3.11.0",
+      "webpack-dev-server": "^3.1.5"
+    },
+    "dependencies": {
+      "babel-core": "^6.22.1",
+      "babel-preset-airbnb": "^2.1.1",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.22.0",
+      "chai": "^4.1.2",
+      "enzyme": "^3.3.0",
+      "enzyme-adapter-react-16": "^1.1.1",
+      "expect": "^1.20.2",
+      "fetch-mock": "^6.5.2",
+      "mocha-multi": "^1.0.1",
+      "nock": "^9.0.9",
+      "react": "^16.4.1",
+      "react-bootstrap": "^0.32.1",
+      "react-dom": "^16.4.1",
+      "react-redux": "^5.0.7",
+      "react-router": "^3.0.2",
+      "redux": "^4.0.0",
+      "redux-mock-store": "^1.2.2",
+      "redux-thunk": "^2.3.0",
+      "sinon": "^6.1.4",
+      "uuid": "^3.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "mocha test/helpers/browser.js test/*.js",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
