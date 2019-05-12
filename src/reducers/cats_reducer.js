@@ -10,4 +10,4 @@ export default function catsReducer(state = {loading: false, pictures: []}, acti
     default:
       return state;
   }
-};
+}
