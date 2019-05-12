@@ -1,4 +1,4 @@
-function catsReducer(state = {loading: false, pictures: []}, action) {
+export default function catsReducer(state = {loading: false, pictures: []}, action) {
   switch (action.type) {
 
     case 'LOADING_CATS':
