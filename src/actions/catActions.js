@@ -1,6 +1,6 @@
 export function fetchCats() {
   return (dispatch) => {
-    dispatch({ type: 'START_ADDING_CATS_REQUEST' });
+    dispatch({ type: 'LOADING_CATS' });
     return     fetch('http://localhost:4000/db').then(response => {
       return response.json()
     }).then(responseJSON => {
