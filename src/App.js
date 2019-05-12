@@ -27,5 +27,8 @@ class App extends Component {
   }
 }
 
+const mapStateToProps = ({ cats }) => {
+  catPics: cats.pictures
+}
 
-export default connect(({ cats }) => ({ catPics }), { fetchCats })(App)
+export default connect(mapStateToProps, { fetchCats })(App)
