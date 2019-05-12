@@ -5,6 +5,6 @@ export function fetchCats() {
       return response.json()
     }).then(responseJSON => {
       return responseJSON.images
-    }).then(cats => dispatch({ type: 'FETCH_CATS', cats }));;
+    }).then(cats => dispatch({ type: 'FETCH_CATS', payload: cats }));;
   };
 }

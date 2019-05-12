@@ -5,7 +5,7 @@ function catsReducer(state = {loading: false, pictures: []}, action) {
       return {...state, loading: true}
 
     case 'FETCH_CATS':
-      return {loading: false, pictures: action.cats}
+      return {loading: false, pictures: action.payload}
 
     default:
       return state;
