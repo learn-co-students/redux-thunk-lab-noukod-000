@@ -28,4 +28,4 @@ class App extends Component {
 }
 
 
-export default connect(({ cats }) = ({ catPics }), { fetchCats })(App)
+export default connect(({ cats }) => ({ catPics }), { fetchCats })(App)
