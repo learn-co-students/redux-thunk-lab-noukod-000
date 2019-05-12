@@ -27,8 +27,8 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = ({ cats }) => {
-  catPics: cats.pictures
+const mapStateToProps = (state) => {
+  catPics: state.cats.pictures
 }
 
 export default connect(mapStateToProps, { fetchCats })(App)
