@@ -1,5 +1,5 @@
-import { combineReducers } from 'redux'
-import catsReducer from '../reducers/cats_reducer'
-export default combineReducers({
-  cats: catsReducer
-})
+// import { combineReducers } from 'redux'
+// import catsReducer from './catsReducer'
+// export default combineReducers({
+//   cats: catsReducer
+// })

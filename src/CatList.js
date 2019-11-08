@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class CatList extends Component {
-  renderCats = () => {
-    return this.props.catPics.map(pic => {
-      return <img key={pic.id} src={pic.url} alt="catPic" />
-    })
+class CatList extends React.Component {
+  listCats = () => {
+    return this.props.catPics.map(cat => <img key={cat.id} src={cat.url} alt={cat.id} />)
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
-        {this.renderCats()}
+        {this.listCats()}
       </div>
     )
   }
 }
+
+export default CatList;
